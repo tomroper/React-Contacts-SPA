@@ -8,19 +8,19 @@ class App extends Component {
       {
         "id": "ryan",
         "name": "Ryan Florence",
-        "email": "ryan@reacttraining.com",
+        "email": "ryan@ryan.com",
         "avatarURL": "http://localhost:5001/ryan.jpg"
       },
       {
         "id": "michael",
         "name": "Michael Jackson",
-        "email": "michael@reacttraining.com",
+        "email": "michael@michael.com",
         "avatarURL": "http://localhost:5001/michael.jpg"
       },
       {
         "id": "tyler",
         "name": "Tyler McGinnis",
-        "email": "tyler@reacttraining.com",
+        "email": "tyler@tyler.com",
         "avatarURL": "http://localhost:5001/tyler.jpg"
       }
     ]
