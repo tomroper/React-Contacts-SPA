@@ -21,6 +21,38 @@ For the App
 ### Functionality
 We start with the initial state set with 3 contacts.
 
+#### Searching Contacts
+
+In our search `<input>`, `value` is set by the component state, a `onChange` is used to run the `updateQuery()`, that mutates the component state and therefore updates the value. This is a nice way for us let React handle the state and UI updating
+
+```
+<input
+    value={this.state.query}
+    onChange={(event) => this.updateQuery(event.target.value)}
+/>
+    
+```
+```
+updateQuery = (query) => {
+    this.setState({ query: query.trim() })
+}
+```
+
+As we know, when the state changes, the components `render()` is called, and the UI updates. An if/else lets us check whether we have anything in the query state, and if so to `let showingContacts` be the array we are given after running a `.test()` function on `this.props.contacts`
+
+```
+let showingContacts
+if (this.state.query) {
+    const match = new RegExp(escapeRegExp(this.state.query), 'i')
+    showingContacts = this.props.contacts.filter((contact) => match.test(contact.name))
+} else {
+    showingContacts = this.props.contacts
+}
+showingContacts.sort(sortBy('name'))
+```
+
+#### Deleting Contacts
+
 When we click to delete a contact, the contact is passed into this function and setState runs a `filter()`  
 
 ```
