@@ -20,7 +20,6 @@ For the App
 * The app can be started with `yarn start` or `npm start` , and will run on port 3000
 
 ### Functionality
-We start with the initial state set with 3 contacts.
 
 #### Searching Contacts
 
