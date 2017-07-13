@@ -1,4 +1,7 @@
 # React Contacts Book App
+#### In active development
+
+![Contacts App](http://i.imgur.com/kpR9Zwc.png)
 
 ### About
 This App manages a contact list, in which the user can add and delete contacts as well as search through them. It is built with React, and uses a small node/express backend server. 
@@ -15,9 +18,7 @@ For the App
 * Install dependencies with `npm install`
 * The app can be started with `yarn start` or `npm start` , and will run on port 3000
 
-### Development
-This App is currently in active development
-
+### Functionality
 We start with the initial state set with 3 contacts.
 
 When we click to delete a contact, the contact is passed into this function and setState runs a `filter()`  
