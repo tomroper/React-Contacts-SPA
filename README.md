@@ -1,7 +1,8 @@
 # React Contacts Book App
 #### In active development
 
-![Contacts App](http://i.imgur.com/kpR9Zwc.png)
+![Contacts App](http://i.imgur.com/SD5sROI.png)
+
 
 ### About
 This App manages a contact list, in which the user can add and delete contacts as well as search through them. It is built with React, and uses a small node/express backend server. 
