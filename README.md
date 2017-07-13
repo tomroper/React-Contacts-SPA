@@ -5,7 +5,7 @@
 
 
 ### About
-This App manages a contact list, in which the user can add and delete contacts as well as search through them. It is built with React, and uses a small node/express backend server. 
+This App manages a contact list, in which the user can search and delete contacts. It is built with React, and uses a small node/express backend server. 
 
 ### To run this App
 
