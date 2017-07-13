@@ -13,7 +13,7 @@ Setup the server
 For the App
 * Clone the repo with `git clone https://github.com/tomroper/react-contacts-app.git`
 * Install dependencies with `npm install`
-* The app can be started with `yarn start` or `npm start`
+* The app can be started with `yarn start` or `npm start` , and will run on port 3000
 
 ### Development
 This App is currently in active development
