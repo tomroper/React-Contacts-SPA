@@ -1,4 +1,4 @@
-# React Contacts Book App
+# React Contacts App
 
 ![Contacts App](http://i.imgur.com/SD5sROI.png)
 
