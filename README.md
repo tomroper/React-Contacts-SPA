@@ -1,5 +1,4 @@
 # React Contacts Book App
-#### In active development
 
 ![Contacts App](http://i.imgur.com/SD5sROI.png)
 
